@@ -122,7 +122,7 @@ export default function SignalsScreen() {
       <Text style={[styles.tabLabel, { marginTop: 24 }]}>Missed Signals ({missedSignals.length})</Text>
       {missedSignals.map((signal) => (
         <View key={signal.id} style={[styles.signalCard, styles.missedCard]}>
-          <Text style={styles.missedBadge}>✗ MISSED</Text>
+          <Text style={styles.missedBadge}>✕ MISSED</Text>
           <Text style={styles.direction}>{signal.direction} @ ${signal.target.toFixed(2)}</Text>
         </View>
       ))}

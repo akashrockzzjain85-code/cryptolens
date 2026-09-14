@@ -45,7 +45,7 @@ export default function ProfileScreen({ navigation }: any) {
         <Text style={styles.infoText}>
           CryptoLens is a transparent crypto trading dashboard with multi-factor signal generation, real-time market tracking, and an honest track record.
         </Text>
-        <Text style={styles.infoText} style={{ marginTop: 8 }}>
+        <Text style={[styles.infoText, { marginTop: 8 }]}>
           Version: 1.0.0
         </Text>
       </View>
